@@ -1,0 +1,16 @@
+function rot13(str) {
+  str = str.toUpperCase();
+  return str.replace(/[A-Z]/g, rot13);
+  return str;
+
+  function rot13(decipher) {
+    const charCode = decipher.charCodeAt();
+    return String.fromCharCode(
+            ((charCode + 13) <= 90) ? charCode + 13
+                                    : (charCode + 13) % 90 + 64
+           );
+    
+  }
+};
+
+rot13("SERR UHTF");
