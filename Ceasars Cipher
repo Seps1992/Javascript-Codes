@@ -14,3 +14,4 @@ function rot13(str) {
 };
 
 rot13("SERR UHTF");
+console.log(rot13("SERR UHTF"));
