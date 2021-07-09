@@ -24,3 +24,6 @@ function convertToRoman(num) {
     }
   }
 };
+
+convertToRoman(92);
+console.log(convertToRoman(92));
