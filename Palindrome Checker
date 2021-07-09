@@ -10,8 +10,7 @@ for(var i = 0; i < Math.floor(str.length/2); i++) {
   }
   return true;
   
-}
-
-
+};
 
 palindrome("eye");
+console.log(palindrome("eye");
